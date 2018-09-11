@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
 
-print "ded man:"
-ded = raw_input()
-
-print "object:"
-obj = raw_input()
+ded = raw_input("ded man:")
+obj = raw_input("object:")
 
 print ""
 print "----"
