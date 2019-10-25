@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 
-ded = raw_input("ded man:")
-obj = raw_input("object:")
+ded = input("ded man:")
+obj = input("object:")
 
-print ""
-print "----"
-print ""
+print("")
+print("----")
+print("")
 
-print "30日夜、果実都某所で、 :{0}: に埋もれてdedしている :{1}: が発見された。".format(obj, ded)
+print("30日夜、果実都某所で、 :{0}: に埋もれてdedしている :{1}: が発見された。".format(obj, ded))
 
-print ""
+print("")
 
 for i in range(0, 4):
     l = ""
@@ -20,4 +20,4 @@ for i in range(0, 4):
                 continue
 
         l += ":{0}: ".format(obj)
-    print l
+    print(l)
